@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.title("統計力学ゲーム１")
+st.title("統計力学ゲーム1")
 st.text("プレイヤー間でランダムにチップを移動させ、チップ枚数の時間変化を観察するシミュレーションです。")
 
 with st.sidebar:
