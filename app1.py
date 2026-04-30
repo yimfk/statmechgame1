@@ -49,7 +49,7 @@ for p in range(playerN):
     ax.plot(turns, chips_t[p], label=f"Player {p+1}")
 ax.set_xlabel("ターン")
 ax.set_ylabel("チップ枚数")
-ax.legend(loc="upper right", fontsize="small", ncol=max(1, playerN // 6))
+ax.legend(fontsize="small", ncol=max(1, playerN // 6), bbox_to_anchor=(1, 1))
 st.pyplot(fig)
 plt.close(fig)
 
